@@ -8,8 +8,8 @@
       "useSkills": "#HTML,#CSS,#JavaScript,#JSON,#Ajax",
       "contribution": "Personal 100%",
       "description": "색상을 클릭하면 JSON에서 상품 데이터를 가져와 해당 색상의 배경, 상품 이미지, 상품 리스트 등이 변경되는 프로모션 사이트입니다. 클릭하지 않아도 자동으로 회전하며 색상이 변경됩니다.",
-      "url" : "projects/rosak/index.html",
-      "github" : "#"
+      "url" : "https://rosak.netlify.app/",
+      "github" : "https://github.com/J-ina/rosak"
     },
     {
       "img" : "img/kitschU.png",
