@@ -85,9 +85,7 @@ function projectCarousel () {
   });
 }
 
-
 function createUseSkills (projects) {
-
   const useSkillsArray = projects.map(project => project.useSkills.split(','));
   const useSkillsWrap = document.querySelectorAll('.useSkills');
   let i = 0;
@@ -99,5 +97,4 @@ function createUseSkills (projects) {
     })
     i++;
   })
-
 }

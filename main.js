@@ -2,13 +2,11 @@ const sections = document.querySelectorAll('section');
 const sectionArray = Array.from(sections);
 const home = document.querySelector('#home');
 
-
 typeHello();
-aboutNav();
-document.addEventListener('scroll',moveDot);
 sections.forEach( section => section.addEventListener('wheel',smoothScroll));
+document.addEventListener('scroll',moveDot);
 home.addEventListener('wheel', scrollDown);
-
+aboutNav();
 
 function typeHello () {
   const typingEl = document.querySelector('.hello');
