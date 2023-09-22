@@ -1,0 +1,26 @@
+@media screen and (max-width: 1400px) {
+  .profile > * {
+    width: 40%;
+  }
+  .projectTxt .useSkills {font-size: 12px;}
+  .projectTxt .description {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .project {
+    flex-direction: column;
+  }
+  .project > * {
+    width: 90%;
+    margin: auto;
+  }
+  .projectTxt {
+    padding: 0px;
+  }
+  .viewBtns {
+    text-align: center;
+  }
+}

@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  min-width: 700px; min-height: 700px;
+  font-family: 'NanumSquareAcr', sans-serif;
+  font-size: 15px;
+  color: #333;
+}
+a {
+  width: 100%; height: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+h1 {
+  padding: 50px 0;
+  font-family: 'Segoe Script', serif;
+  font-size: 50px;
+  text-align: center;
+}
+html::-webkit-scrollbar {display: none;}
+
+/* clear fix */
+.clear::after {
+  content: '';
+  display: block;
+  clear: both;
+}
